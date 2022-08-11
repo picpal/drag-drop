@@ -1,3 +1,8 @@
+///<reference path="base-component.ts" />
+///<reference path="../decorator/autoBind.ts" />
+///<reference path="../util/validation.ts" />
+///<reference path="../state/project-state.ts" />
+
 namespace App {
   // 양식 생성 및 사용자 입력 수집 class
   export class ProjectInput extends Component<HTMLDivElement, HTMLFormElement>{

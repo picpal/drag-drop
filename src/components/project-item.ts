@@ -1,3 +1,8 @@
+///<reference path="base-component.ts" />
+///<reference path="../decorator/autoBind.ts" />
+///<reference path="../model/project.ts" />
+///<reference path="../model/drag-drop.ts" />
+
 namespace App {
   // 프로젝트 항목 관리 ( 프로젝트 자체를 랜더링 하기 위해서 생성 )
   export class ProjectItem extends Component<HTMLUListElement, HTMLLIElement> implements Draggable {
