@@ -1,7 +1,7 @@
-import { Component } from './base-component.js';
-import * as Validation from '../util/validation.js'
-import { AutoBind as autobind } from '../decorator/autoBind.js';
-import { projectState } from '../state/project-state.js';
+import Component from './base-component';
+import * as Validation from '../util/validation'
+import { AutoBind as autobind } from '../decorator/autoBind';
+import { projectState } from '../state/project-state';
 
 // 양식 생성 및 사용자 입력 수집 class
 export class ProjectInput extends Component<HTMLDivElement, HTMLFormElement>{

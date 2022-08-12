@@ -1,7 +1,7 @@
-import { Draggable } from '../model/drag-drop.js';
-import { Project } from '../model/project.js'
-import { Component } from './base-component.js'
-import { AutoBind } from '../decorator/autoBind.js';
+import { Draggable } from '../model/drag-drop';
+import { Project } from '../model/project'
+import Component from './base-component'
+import { AutoBind } from '../decorator/autoBind';
 
 // 프로젝트 항목 관리 ( 프로젝트 자체를 랜더링 하기 위해서 생성 )
 export class ProjectItem extends Component<HTMLUListElement, HTMLLIElement> implements Draggable {
